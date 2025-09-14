@@ -1,13 +1,38 @@
-# Data
-data/raw/*
-data/interim/*
-data/processed/*
-!data/.gitkeep
-
-# Models
-models/*
-
-# Environnements
+# --- Python ---
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Logs ---
+*.log
+
+# --- Data ---
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pickle
+*.pkl
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
