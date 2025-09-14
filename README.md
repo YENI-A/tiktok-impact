@@ -29,28 +29,6 @@ et le bien-être général.
 
 L’objectif final est de produire des insights exploitables et une application Streamlit interactive permettant d’explorer les résultats.
 
-🗂️ Organisation du projet
-
-tiktok-impact/
-├─ data/
-│   ├─ raw/        # données brutes (questionnaire, CSV)
-│   ├─ interim/    # données nettoyées partiellement
-│   └─ processed/  # données prêtes à l’analyse
-│
-├─ notebooks/      # notebooks Jupyter
-│   ├─ 00_eda.ipynb
-│   ├─ 10_causal.ipynb
-│   ├─ 20_models.ipynb
-│   └─ 30_app_prototype.ipynb
-│
-├─ src/            # scripts Python (prétraitement, features, modèles)
-├─ reports/        # figures, tableaux et résultats exportés
-├─ models/         # modèles sauvegardés (pickle/joblib)
-├─ app/            # application Streamlit
-├─ tests/          # tests unitaires
-├─ requirements.txt
-├─ .gitignore
-└─ README.md
 
 📊 Données
 
